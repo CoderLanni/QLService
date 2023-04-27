@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'QLService'
-    s.version          = '0.1.1'
+    s.version          = '0.1.2'
     s.summary          = 'QL工具'
     
     # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
     
     s.source_files = 'QLService/Classes/**/*'
     
-    s.resource_bundles = {
-        'QLService' => ['QLService/Assets/**/*.png','QLService/Assets/**/*.bundle']
-    }
+#    s.resource_bundles = {
+#        'QLService' => ['QLService/Assets/**/*.png','QLService/Assets/**/*.bundle']
+#    }
     
     s.dependency 'Then'
     s.requires_arc  = true
