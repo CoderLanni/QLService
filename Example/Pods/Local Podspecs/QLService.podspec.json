@@ -1,0 +1,34 @@
+{
+  "name": "QLService",
+  "version": "0.1.1",
+  "summary": "QL工具",
+  "description": "QL的工具类",
+  "homepage": "https://github.com/CoderLanni/QLService",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "CoderLanni": "1030129479@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/CoderLanni/QLService.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "QLService/Classes/**/*",
+  "resource_bundles": {
+    "QLService": [
+      "QLService/Assets/**/*.png",
+      "QLService/Assets/**/*.bundle"
+    ]
+  },
+  "dependencies": {
+    "Then": [
+
+    ]
+  },
+  "requires_arc": true
+}

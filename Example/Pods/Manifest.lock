@@ -1,0 +1,23 @@
+PODS:
+  - QLService (0.1.1):
+    - Then
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - QLService (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Then
+
+EXTERNAL SOURCES:
+  QLService:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QLService: 40717accf7f86188d74d457e86621949040df1e6
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 2836536342a86a8dd1044ef9c57063e79bc06ba5
+
+COCOAPODS: 1.11.3
