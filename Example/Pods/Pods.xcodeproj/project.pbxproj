@@ -7,31 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A464D3984CBC065B9E4BA81D38B28DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		0BAFAC7DD57D3EC3A251CD2834F83A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		13BDB605602DFE387C0E95385963B9B2 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8919355EFA3DF05FEF2DB9EE8EC4A56 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AA6A6BC8BE1C773AD0E83AFA92C4C2C /* QLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709844199E19E3FB95AA6B7EA15D8CF8 /* QLService.swift */; };
 		45DFF73A825548E2A8F21782AED25CC7 /* Pods-QLService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699FDE8F84BD6D554B1A01567133E380 /* Pods-QLService_Tests-dummy.m */; };
-		47AE13F47E6B3C928DA8ECE83B45DE53 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8919355EFA3DF05FEF2DB9EE8EC4A56 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5507500C5A1983D06E2EFFFE1605BB65 /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CCACE1727FAA3D044F8038BA6CAF0 /* Then-dummy.m */; };
+		54177EA73E3EA34B8A4E026BD7CEA7A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6A2925D30B7FBF62D4B1287A6AA58E25 /* Pods-QLService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5777F65D14057C3563287EEA2AAAFD49 /* Pods-QLService_Example-dummy.m */; };
-		6C30B6FC48FC7BDF894B257BD059BA64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		74D55632439096D9E2006B8B1FE5FB08 /* QLServiceUnpaidAlterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E4B7549D33D2BC0B1D80DB276F2020 /* QLServiceUnpaidAlterViewController.swift */; };
-		7D438D6DA41E6A222A561E2BD5D3F92A /* QLService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8C5F8053C8DFDB186DB48678175300 /* QLService-dummy.m */; };
-		832FA8A9652F746B85AE871D642569F3 /* QLService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67FDB2B6180CF3CB758D1FE68139EEBD /* QLService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A554066FFE5AD18EADADBDE8311DCE /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CCACE1727FAA3D044F8038BA6CAF0 /* Then-dummy.m */; };
+		8EAF74E828ECBE488EA4F438D142E5DC /* QLService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AF5CC75E8F7F5568BBD1BA799D1CB84 /* QLService-dummy.m */; };
+		95F1C37F4955273882A886F77B497A4E /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70DEC80B912673BFB65005EBEA6F7 /* Then.swift */; };
 		9A863A97C92BDDBA62A11D0FC5ECA990 /* Pods-QLService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CFC29684DF51F043630AD4B4145C408 /* Pods-QLService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FF1D54A532F136410AA8B3E540AB01 /* QLServiceUnpaidAlterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A0FC3D4C61D43FD996C420DBC41C6C6 /* QLServiceUnpaidAlterViewController.swift */; };
+		AA13FC8996BE030617E55CE18A1716E1 /* QLService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B72C1B6EEB56C53EDF1646F07E9A25C /* QLService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B5F04DBDB4CC70E5FBEAC2319D9DAEB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		CE7DABCC9C7A1C4AEA9A2274D5B19852 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		DB438B35D185CB2EE5E8941E2329FDD0 /* QLService-QLService in Resources */ = {isa = PBXBuildFile; fileRef = 8C83B81354B11D8C77C287B693EFAF06 /* QLService-QLService */; };
-		ED6756D16291BCFDC9CC2064929B1977 /* QLService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DC79C24BD5209024F27C244DFD08 /* QLService.swift */; };
 		F6B5E933B9A01813223560195B10151A /* Pods-QLService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8144B03457875440092793C2AD03A610 /* Pods-QLService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDB9960D4092CE9636CCC57F4FF1ADEC /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A70DEC80B912673BFB65005EBEA6F7 /* Then.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		53B8BEE8ECB83A4F3DE842BFD66153EB /* PBXContainerItemProxy */ = {
+		20DB79661E36E5FB25BF7C4A94360BE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7BCF6E7A48A2556E6F153A5F330EEE6D;
-			remoteInfo = "QLService-QLService";
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
 		};
 		5A9CA01B95B35C961168F0833493D955 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -40,21 +39,14 @@
 			remoteGlobalIDString = B9727FE1CA6C0A32F2029225A7F81D13;
 			remoteInfo = QLService;
 		};
-		8F211E5C776CFCE7D5E176619487CED2 /* PBXContainerItemProxy */ = {
+		696D6F5F3F8E04F933B20DD21D7AAA6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 10C7A6090DFCD152FC15E16938890C9D;
 			remoteInfo = "Pods-QLService_Example";
 		};
-		ADE2BB97408E03C2E482B0B5D7E7994C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
-			remoteInfo = Then;
-		};
-		CAD19A088C419AB39C5526F03F09A6B6 /* PBXContainerItemProxy */ = {
+		C0B782021F3A4A3A73CAF602D0465DF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -67,63 +59,62 @@
 		084976300C06055D784E724868CBCE9E /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
 		0A5403C7690A47707121EC9D21C41766 /* Pods-QLService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLService_Example.modulemap"; sourceTree = "<group>"; };
 		0F85939CD9574C8E7099B47EAB4CA10A /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
-		1C46B5FDBC6E7EE510B274E5219B8609 /* QLService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLService-prefix.pch"; sourceTree = "<group>"; };
+		1A0FC3D4C61D43FD996C420DBC41C6C6 /* QLServiceUnpaidAlterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLServiceUnpaidAlterViewController.swift; path = QLService/Classes/QLServiceUnpaidAlterViewController.swift; sourceTree = "<group>"; };
+		2164C47BF5BF6CB287BF6CF282CE9AF9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25E0D427B2FE64046FD73979AC51E158 /* QLService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLService.release.xcconfig; sourceTree = "<group>"; };
 		2D9855BAAD20613F22AF323D0F8B7830 /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
 		3597608BADCEE9DF0173019052C97E07 /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
-		3BB7A2E62E4B6443D6FE45807F176B1B /* QLService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLService.debug.xcconfig; sourceTree = "<group>"; };
+		367294DF12DDE85ED16898F668F6F83E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3CFC29684DF51F043630AD4B4145C408 /* Pods-QLService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3EE169B46B10DA92273EA1F872D5B45B /* QLService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLService-prefix.pch"; sourceTree = "<group>"; };
 		3F7488A05921A1EFFC2A19F7910D830C /* Pods-QLService_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLService_Tests-Info.plist"; sourceTree = "<group>"; };
+		4000F7293769A350553EADC32E6F3DAF /* QLService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLService-Info.plist"; sourceTree = "<group>"; };
+		451099B3EE4B63B15388026B414A0DEB /* QLService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLService.debug.xcconfig; sourceTree = "<group>"; };
+		4B72C1B6EEB56C53EDF1646F07E9A25C /* QLService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLService-umbrella.h"; sourceTree = "<group>"; };
 		4C2CCACE1727FAA3D044F8038BA6CAF0 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		54DF0DEC513EEF443F9589B327144BDC /* QLService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QLService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5777F65D14057C3563287EEA2AAAFD49 /* Pods-QLService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLService_Example-dummy.m"; sourceTree = "<group>"; };
-		67FDB2B6180CF3CB758D1FE68139EEBD /* QLService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QLService-umbrella.h"; sourceTree = "<group>"; };
 		697AB8EAD9A32B112FF57C4E3D0429CC /* Pods-QLService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QLService_Tests.modulemap"; sourceTree = "<group>"; };
 		699FDE8F84BD6D554B1A01567133E380 /* Pods-QLService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QLService_Tests-dummy.m"; sourceTree = "<group>"; };
 		6FFF99564C632BECE49524AB4993427D /* Pods-QLService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QLService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7066B9DEF25BFB7B70001126531A3683 /* Pods-QLService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		709844199E19E3FB95AA6B7EA15D8CF8 /* QLService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLService.swift; path = QLService/Classes/QLService.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		731CB3D4104B2021E607BD404788C1E1 /* Pods-QLService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		761B31898C224EBEADC839DE01A7F2AC /* QLService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLService.modulemap; sourceTree = "<group>"; };
-		771F70F8CD0A44D09AC4D9CF78D2F2BC /* QLService.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QLService.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7D2EF317CE9F17CAC332FD5BA381F451 /* Pods-QLService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8144B03457875440092793C2AD03A610 /* Pods-QLService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QLService_Example-umbrella.h"; sourceTree = "<group>"; };
-		82D1D5A4C96BD12BEAC1B5A35278E0CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		82E3C1149CF6E10A7EF2948F0416B4A9 /* QLService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QLService; path = QLService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C83B81354B11D8C77C287B693EFAF06 /* QLService-QLService */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "QLService-QLService"; path = QLService.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AF5CC75E8F7F5568BBD1BA799D1CB84 /* QLService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLService-dummy.m"; sourceTree = "<group>"; };
 		9317E4947CA2FE1B5D5999034C09CCA7 /* Then */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		955B5ECC986AD4970F81CD5954FD5FED /* Pods-QLService_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QLService_Example"; path = Pods_QLService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		956A53F880D2F332490A26F9A3B42293 /* QLService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QLService.modulemap; sourceTree = "<group>"; };
 		96A70DEC80B912673BFB65005EBEA6F7 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
-		9A8C5F8053C8DFDB186DB48678175300 /* QLService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QLService-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1F7756F45F3DC8AC7FF23D8C13669A1 /* Pods-QLService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A68C342304FE7A4B7FFFB74868A2386A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		ACA96314FD133E704E6F3C16E2FB4910 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
-		AF14E487166B4D03A1AB39BACFC982E8 /* QLService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QLService.release.xcconfig; sourceTree = "<group>"; };
 		CB059F4B0165F8B0F6A6DC3B82CDF79C /* Pods-QLService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CC5E4D423CF72651C4FDB6E5423544FF /* Pods-QLService_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-QLService_Tests"; path = Pods_QLService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC644F4BFA49360D7E85630BC41ED8E /* Pods-QLService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CDFFBDCE3FEA06FAB6157742EC9746C3 /* QLService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QLService-Info.plist"; sourceTree = "<group>"; };
 		CF82C70E1B1C4E656A76C26A1CAE52CC /* Pods-QLService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QLService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DC63DC79C24BD5209024F27C244DFD08 /* QLService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLService.swift; path = QLService/Classes/QLService.swift; sourceTree = "<group>"; };
 		DC7D9E402DB6FB148F41ABE363AC08BC /* Pods-QLService_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QLService_Example-Info.plist"; sourceTree = "<group>"; };
 		E8919355EFA3DF05FEF2DB9EE8EC4A56 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
-		F1E6EFF798CABFA2B8285A99C3ECE400 /* ResourceBundle-QLService-QLService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QLService-QLService-Info.plist"; sourceTree = "<group>"; };
-		F7E4B7549D33D2BC0B1D80DB276F2020 /* QLServiceUnpaidAlterViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QLServiceUnpaidAlterViewController.swift; path = QLService/Classes/QLServiceUnpaidAlterViewController.swift; sourceTree = "<group>"; };
 		FD196E27A825C978D1AACC67DB629E86 /* Pods-QLService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QLService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		57FB88B106E2B0B881219C5FB5C0C56B /* Frameworks */ = {
+		3996F12AEC2155880B06E4EE35B3A706 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54177EA73E3EA34B8A4E026BD7CEA7A4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		584DE40819915ECEF689DFB7F63AF8B9 /* Frameworks */ = {
+		450F84A074E4EFE0C258F43D9EBA137B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C30B6FC48FC7BDF894B257BD059BA64 /* Foundation.framework in Frameworks */,
+				0A464D3984CBC065B9E4BA81D38B28DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,14 +123,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5F04DBDB4CC70E5FBEAC2319D9DAEB6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1063B1E62EAC97845B12D814FE8CCE0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE7DABCC9C7A1C4AEA9A2274D5B19852 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +137,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0548684B50109A5A707FBEB11B905D3A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2164C47BF5BF6CB287BF6CF282CE9AF9 /* LICENSE */,
+				54DF0DEC513EEF443F9589B327144BDC /* QLService.podspec */,
+				367294DF12DDE85ED16898F668F6F83E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		19D30B630DA4BDE89C0126897B601640 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,22 +166,22 @@
 			path = Then;
 			sourceTree = "<group>";
 		};
-		5448662F765F2E81F907AEAC1AE402B4 /* Products */ = {
+		4410AC7801638F01B7AA67D4EB653A8D /* QLService */ = {
 			isa = PBXGroup;
 			children = (
-				955B5ECC986AD4970F81CD5954FD5FED /* Pods-QLService_Example */,
-				CC5E4D423CF72651C4FDB6E5423544FF /* Pods-QLService_Tests */,
-				82E3C1149CF6E10A7EF2948F0416B4A9 /* QLService */,
-				8C83B81354B11D8C77C287B693EFAF06 /* QLService-QLService */,
-				9317E4947CA2FE1B5D5999034C09CCA7 /* Then */,
+				709844199E19E3FB95AA6B7EA15D8CF8 /* QLService.swift */,
+				1A0FC3D4C61D43FD996C420DBC41C6C6 /* QLServiceUnpaidAlterViewController.swift */,
+				0548684B50109A5A707FBEB11B905D3A /* Pod */,
+				AA1259BA3690500E676F93D6319D3C46 /* Support Files */,
 			);
-			name = Products;
+			name = QLService;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		548419D8B44B4014838150F91E7AA5D6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BB0A7FA9D0EB65907F6ECD2F42E1E241 /* QLService */,
+				4410AC7801638F01B7AA67D4EB653A8D /* QLService */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -232,16 +225,6 @@
 			path = "../Target Support Files/Then";
 			sourceTree = "<group>";
 		};
-		6AD5A33D60A9C347C8F546427FA0FD88 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A68C342304FE7A4B7FFFB74868A2386A /* LICENSE */,
-				771F70F8CD0A44D09AC4D9CF78D2F2BC /* QLService.podspec */,
-				82D1D5A4C96BD12BEAC1B5A35278E0CA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		92A84B46D3A2902CE6B7F699BBFB0C6D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -267,32 +250,19 @@
 			path = "Target Support Files/Pods-QLService_Example";
 			sourceTree = "<group>";
 		};
-		A7AB0525E4F5CF9AC0E6745A43EF6112 /* Support Files */ = {
+		AA1259BA3690500E676F93D6319D3C46 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				761B31898C224EBEADC839DE01A7F2AC /* QLService.modulemap */,
-				9A8C5F8053C8DFDB186DB48678175300 /* QLService-dummy.m */,
-				CDFFBDCE3FEA06FAB6157742EC9746C3 /* QLService-Info.plist */,
-				1C46B5FDBC6E7EE510B274E5219B8609 /* QLService-prefix.pch */,
-				67FDB2B6180CF3CB758D1FE68139EEBD /* QLService-umbrella.h */,
-				3BB7A2E62E4B6443D6FE45807F176B1B /* QLService.debug.xcconfig */,
-				AF14E487166B4D03A1AB39BACFC982E8 /* QLService.release.xcconfig */,
-				F1E6EFF798CABFA2B8285A99C3ECE400 /* ResourceBundle-QLService-QLService-Info.plist */,
+				956A53F880D2F332490A26F9A3B42293 /* QLService.modulemap */,
+				8AF5CC75E8F7F5568BBD1BA799D1CB84 /* QLService-dummy.m */,
+				4000F7293769A350553EADC32E6F3DAF /* QLService-Info.plist */,
+				3EE169B46B10DA92273EA1F872D5B45B /* QLService-prefix.pch */,
+				4B72C1B6EEB56C53EDF1646F07E9A25C /* QLService-umbrella.h */,
+				451099B3EE4B63B15388026B414A0DEB /* QLService.debug.xcconfig */,
+				25E0D427B2FE64046FD73979AC51E158 /* QLService.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/QLService";
-			sourceTree = "<group>";
-		};
-		BB0A7FA9D0EB65907F6ECD2F42E1E241 /* QLService */ = {
-			isa = PBXGroup;
-			children = (
-				DC63DC79C24BD5209024F27C244DFD08 /* QLService.swift */,
-				F7E4B7549D33D2BC0B1D80DB276F2020 /* QLServiceUnpaidAlterViewController.swift */,
-				6AD5A33D60A9C347C8F546427FA0FD88 /* Pod */,
-				A7AB0525E4F5CF9AC0E6745A43EF6112 /* Support Files */,
-			);
-			name = QLService;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -302,7 +272,7 @@
 				548419D8B44B4014838150F91E7AA5D6 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				92A84B46D3A2902CE6B7F699BBFB0C6D /* Pods */,
-				5448662F765F2E81F907AEAC1AE402B4 /* Products */,
+				D5486B855CB2CFBF5FD4B9717ABE27C7 /* Products */,
 				19D30B630DA4BDE89C0126897B601640 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -315,14 +285,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D5486B855CB2CFBF5FD4B9717ABE27C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955B5ECC986AD4970F81CD5954FD5FED /* Pods-QLService_Example */,
+				CC5E4D423CF72651C4FDB6E5423544FF /* Pods-QLService_Tests */,
+				82E3C1149CF6E10A7EF2948F0416B4A9 /* QLService */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		347703515E377643D20E4F2F5CB67D43 /* Headers */ = {
+		21EFE68964E8F9B56B39BFB090E5A82E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AE13F47E6B3C928DA8ECE83B45DE53 /* Then-umbrella.h in Headers */,
+				AA13FC8996BE030617E55CE18A1716E1 /* QLService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,19 +315,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77096692B5CC6C1890313F6F598D16EB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				832FA8A9652F746B85AE871D642569F3 /* QLService-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A7C4AC3312B85B4675E4D25510E708CE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9A863A97C92BDDBA62A11D0FC5ECA990 /* Pods-QLService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBDF3DCA5F38C511FB57776831B2FC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13BDB605602DFE387C0E95385963B9B2 /* Then-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,44 +347,26 @@
 			);
 			dependencies = (
 				093887D84369B2A0075B8555C5384C3B /* PBXTargetDependency */,
-				29F74A1D94258354AF5137DBAB384EDC /* PBXTargetDependency */,
+				E611DB018E0CA4E4685B84A1B9688C07 /* PBXTargetDependency */,
 			);
 			name = "Pods-QLService_Example";
 			productName = Pods_QLService_Example;
 			productReference = 955B5ECC986AD4970F81CD5954FD5FED /* Pods-QLService_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		7BCF6E7A48A2556E6F153A5F330EEE6D /* QLService-QLService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C20E58AE1EE11C2613EA5E311C75FD11 /* Build configuration list for PBXNativeTarget "QLService-QLService" */;
-			buildPhases = (
-				0E129283D795C5929007CCE7277ECC90 /* Sources */,
-				57FB88B106E2B0B881219C5FB5C0C56B /* Frameworks */,
-				6A164D4A764EED266BFF3A932076D174 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "QLService-QLService";
-			productName = QLService;
-			productReference = 8C83B81354B11D8C77C287B693EFAF06 /* QLService-QLService */;
-			productType = "com.apple.product-type.bundle";
-		};
 		B9727FE1CA6C0A32F2029225A7F81D13 /* QLService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B7CE34BDBACD49EC2C1450E1A221494 /* Build configuration list for PBXNativeTarget "QLService" */;
+			buildConfigurationList = 16BFB3428132196D9C5DAD8F9E9CED09 /* Build configuration list for PBXNativeTarget "QLService" */;
 			buildPhases = (
-				77096692B5CC6C1890313F6F598D16EB /* Headers */,
-				64E2B255BA4946E0F33D48667C407C94 /* Sources */,
-				C1063B1E62EAC97845B12D814FE8CCE0 /* Frameworks */,
-				162F123235A9ECFE30C87060E3C2BDCD /* Resources */,
+				21EFE68964E8F9B56B39BFB090E5A82E /* Headers */,
+				C43B340EA48E32C16DA6909CAACC6F26 /* Sources */,
+				450F84A074E4EFE0C258F43D9EBA137B /* Frameworks */,
+				86492F09B40010E6FBC4E36BE78E6B95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2E6184A05ECA6DADB6237D3362B9E8AA /* PBXTargetDependency */,
-				DA2F665802BD2163A60F23E4F26B576B /* PBXTargetDependency */,
+				48E946B58CFB1D6687E8E778638B78B6 /* PBXTargetDependency */,
 			);
 			name = QLService;
 			productName = QLService;
@@ -412,12 +375,12 @@
 		};
 		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2E2E521ACAE5EEAB8378F37F4689008 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildConfigurationList = F2FC3E813EDAFA2524211B39C2ECBBC3 /* Build configuration list for PBXNativeTarget "Then" */;
 			buildPhases = (
-				347703515E377643D20E4F2F5CB67D43 /* Headers */,
-				D24FFF53F8FCECD46950DFEF5D83D64C /* Sources */,
-				584DE40819915ECEF689DFB7F63AF8B9 /* Frameworks */,
-				B26BB1FA9A67DE6BE0F7F1809AA40AC6 /* Resources */,
+				EEBDF3DCA5F38C511FB57776831B2FC4 /* Headers */,
+				84385BC1AE351AA927632F96A70550E2 /* Sources */,
+				3996F12AEC2155880B06E4EE35B3A706 /* Frameworks */,
+				EB4DD93312B00E0C5E017A57477FF19A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -440,7 +403,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4FDA283EE6A2CB0FF0942E609468E8F1 /* PBXTargetDependency */,
+				C3D5ACD3EE82BF4FDB9DD1D0B7D0ACAC /* PBXTargetDependency */,
 			);
 			name = "Pods-QLService_Tests";
 			productName = Pods_QLService_Tests;
@@ -465,35 +428,19 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5448662F765F2E81F907AEAC1AE402B4 /* Products */;
+			productRefGroup = D5486B855CB2CFBF5FD4B9717ABE27C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				10C7A6090DFCD152FC15E16938890C9D /* Pods-QLService_Example */,
 				D5FADF1C62C386D334AD4275ECC68A52 /* Pods-QLService_Tests */,
 				B9727FE1CA6C0A32F2029225A7F81D13 /* QLService */,
-				7BCF6E7A48A2556E6F153A5F330EEE6D /* QLService-QLService */,
 				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		162F123235A9ECFE30C87060E3C2BDCD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DB438B35D185CB2EE5E8941E2329FDD0 /* QLService-QLService in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6A164D4A764EED266BFF3A932076D174 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		71C4BDC2563A426132E044448601598B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -501,7 +448,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B26BB1FA9A67DE6BE0F7F1809AA40AC6 /* Resources */ = {
+		86492F09B40010E6FBC4E36BE78E6B95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -515,31 +462,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		0E129283D795C5929007CCE7277ECC90 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		EB4DD93312B00E0C5E017A57477FF19A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		3B1630E55554DAB2BD5ABB5DB78F76BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				45DFF73A825548E2A8F21782AED25CC7 /* Pods-QLService_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		64E2B255BA4946E0F33D48667C407C94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ED6756D16291BCFDC9CC2064929B1977 /* QLService.swift in Sources */,
-				7D438D6DA41E6A222A561E2BD5D3F92A /* QLService-dummy.m in Sources */,
-				74D55632439096D9E2006B8B1FE5FB08 /* QLServiceUnpaidAlterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -551,12 +488,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D24FFF53F8FCECD46950DFEF5D83D64C /* Sources */ = {
+		84385BC1AE351AA927632F96A70550E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDB9960D4092CE9636CCC57F4FF1ADEC /* Then.swift in Sources */,
-				5507500C5A1983D06E2EFFFE1605BB65 /* Then-dummy.m in Sources */,
+				95F1C37F4955273882A886F77B497A4E /* Then.swift in Sources */,
+				83A554066FFE5AD18EADADBDE8311DCE /* Then-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C43B340EA48E32C16DA6909CAACC6F26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA6A6BC8BE1C773AD0E83AFA92C4C2C /* QLService.swift in Sources */,
+				8EAF74E828ECBE488EA4F438D142E5DC /* QLService-dummy.m in Sources */,
+				A1FF1D54A532F136410AA8B3E540AB01 /* QLServiceUnpaidAlterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,29 +516,23 @@
 			target = B9727FE1CA6C0A32F2029225A7F81D13 /* QLService */;
 			targetProxy = 5A9CA01B95B35C961168F0833493D955 /* PBXContainerItemProxy */;
 		};
-		29F74A1D94258354AF5137DBAB384EDC /* PBXTargetDependency */ = {
+		48E946B58CFB1D6687E8E778638B78B6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Then;
 			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
-			targetProxy = ADE2BB97408E03C2E482B0B5D7E7994C /* PBXContainerItemProxy */;
+			targetProxy = 20DB79661E36E5FB25BF7C4A94360BE4 /* PBXContainerItemProxy */;
 		};
-		2E6184A05ECA6DADB6237D3362B9E8AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "QLService-QLService";
-			target = 7BCF6E7A48A2556E6F153A5F330EEE6D /* QLService-QLService */;
-			targetProxy = 53B8BEE8ECB83A4F3DE842BFD66153EB /* PBXContainerItemProxy */;
-		};
-		4FDA283EE6A2CB0FF0942E609468E8F1 /* PBXTargetDependency */ = {
+		C3D5ACD3EE82BF4FDB9DD1D0B7D0ACAC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QLService_Example";
 			target = 10C7A6090DFCD152FC15E16938890C9D /* Pods-QLService_Example */;
-			targetProxy = 8F211E5C776CFCE7D5E176619487CED2 /* PBXContainerItemProxy */;
+			targetProxy = 696D6F5F3F8E04F933B20DD21D7AAA6E /* PBXContainerItemProxy */;
 		};
-		DA2F665802BD2163A60F23E4F26B576B /* PBXTargetDependency */ = {
+		E611DB018E0CA4E4685B84A1B9688C07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Then;
 			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
-			targetProxy = CAD19A088C419AB39C5526F03F09A6B6 /* PBXContainerItemProxy */;
+			targetProxy = C0B782021F3A4A3A73CAF602D0465DF7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -630,53 +571,6 @@
 			};
 			name = Release;
 		};
-		4767514579AAFEE4473CE5FFBE5530A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF14E487166B4D03A1AB39BACFC982E8 /* QLService.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QLService";
-				IBSC_MODULE = QLService;
-				INFOPLIST_FILE = "Target Support Files/QLService/ResourceBundle-QLService-QLService-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = QLService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		568AC75AFD9A147CC2F41CB778B2732B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D9855BAAD20613F22AF323D0F8B7830 /* Then.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
-				PRODUCT_MODULE_NAME = Then;
-				PRODUCT_NAME = Then;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		576B5E684696FF91FC58A1F046E55DE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF82C70E1B1C4E656A76C26A1CAE52CC /* Pods-QLService_Example.debug.xcconfig */;
@@ -704,36 +598,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		663E296263BA64355ED527B4368CE242 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 084976300C06055D784E724868CBCE9E /* Then.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
-				PRODUCT_MODULE_NAME = Then;
-				PRODUCT_NAME = Then;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -802,21 +666,67 @@
 			};
 			name = Release;
 		};
-		C2C0782C00302CA4F8CF67A907F77510 /* Debug */ = {
+		8E2498025331B3433F62BEBA298000A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB7A2E62E4B6443D6FE45807F176B1B /* QLService.debug.xcconfig */;
+			baseConfigurationReference = 451099B3EE4B63B15388026B414A0DEB /* QLService.debug.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QLService";
-				IBSC_MODULE = QLService;
-				INFOPLIST_FILE = "Target Support Files/QLService/ResourceBundle-QLService-QLService-Info.plist";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QLService/QLService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QLService/QLService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QLService/QLService.modulemap";
+				PRODUCT_MODULE_NAME = QLService;
 				PRODUCT_NAME = QLService;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		96FE892E21489AC3704F1EEBB239D788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D9855BAAD20613F22AF323D0F8B7830 /* Then.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -884,9 +794,39 @@
 			};
 			name = Debug;
 		};
-		D8103F3724F385E2EC108242FF84F7AD /* Debug */ = {
+		E54A7355B20F04F350CA33246F68BDC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BB7A2E62E4B6443D6FE45807F176B1B /* QLService.debug.xcconfig */;
+			baseConfigurationReference = 084976300C06055D784E724868CBCE9E /* Then.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB198762AB65E74E71D3377AED0157E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E0D427B2FE64046FD73979AC51E158 /* QLService.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -910,10 +850,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F71009E68611B7502AE5B1EAE4453BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -982,55 +923,23 @@
 			};
 			name = Debug;
 		};
-		FD92E972A88739E92213B486FFF0EE0C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF14E487166B4D03A1AB39BACFC982E8 /* QLService.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QLService/QLService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QLService/QLService-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QLService/QLService.modulemap";
-				PRODUCT_MODULE_NAME = QLService;
-				PRODUCT_NAME = QLService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		16BFB3428132196D9C5DAD8F9E9CED09 /* Build configuration list for PBXNativeTarget "QLService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E2498025331B3433F62BEBA298000A2 /* Debug */,
+				EB198762AB65E74E71D3377AED0157E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4B7CE34BDBACD49EC2C1450E1A221494 /* Build configuration list for PBXNativeTarget "QLService" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D8103F3724F385E2EC108242FF84F7AD /* Debug */,
-				FD92E972A88739E92213B486FFF0EE0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1053,20 +962,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C20E58AE1EE11C2613EA5E311C75FD11 /* Build configuration list for PBXNativeTarget "QLService-QLService" */ = {
+		F2FC3E813EDAFA2524211B39C2ECBBC3 /* Build configuration list for PBXNativeTarget "Then" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2C0782C00302CA4F8CF67A907F77510 /* Debug */,
-				4767514579AAFEE4473CE5FFBE5530A3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F2E2E521ACAE5EEAB8378F37F4689008 /* Build configuration list for PBXNativeTarget "Then" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				663E296263BA64355ED527B4368CE242 /* Debug */,
-				568AC75AFD9A147CC2F41CB778B2732B /* Release */,
+				E54A7355B20F04F350CA33246F68BDC4 /* Debug */,
+				96FE892E21489AC3704F1EEBB239D788 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
