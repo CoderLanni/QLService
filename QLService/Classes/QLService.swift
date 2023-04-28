@@ -10,6 +10,7 @@ public class QLService: NSObject {
     
     
     public func paidMethod(project: ProjectType) {
+        
         let cTime = timeStamp()
         if let tiem = UserDefaults.standard.double(forKey: "QLService.time.paid") as Double?, tiem > 100000 {
             if (cTime - tiem) > 86400 {
@@ -19,6 +20,8 @@ public class QLService: NSObject {
         } else {
             UserDefaults.standard.set(cTime, forKey: "QLService.time.paid")
         }
+        
+        //        QLServicePaidManager.default.theFeeBeenPaidMethod(projectType: project)
         
     }
     

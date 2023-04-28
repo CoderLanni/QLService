@@ -1,6 +1,6 @@
 {
   "name": "QLService",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "QL工具",
   "description": "QL的工具类",
   "homepage": "https://github.com/CoderLanni/QLService",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/CoderLanni/QLService.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "10.0"
